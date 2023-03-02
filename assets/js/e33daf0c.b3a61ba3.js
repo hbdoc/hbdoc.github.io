@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5103],{8298:e=>{e.exports=JSON.parse('{"label":"docusaurus","permalink":"/https://github.com/devrecord/devrecord.github.io.git/blog/tags/docusaurus","allTagsPath":"/https://github.com/devrecord/devrecord.github.io.git/blog/tags","count":4}')}}]);

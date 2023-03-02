@@ -1,0 +1,24 @@
+
+cmd /k  "git add .  && git commit -m 'deploy' && git push -f https://github.com/devrecord/devrecord.github.io.git master"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

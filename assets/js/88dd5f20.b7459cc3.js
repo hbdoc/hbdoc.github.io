@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9512],{4342:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/https://github.com/devrecord/devrecord.github.io.git/blog/tags/facebook","allTagsPath":"/https://github.com/devrecord/devrecord.github.io.git/blog/tags","count":1}')}}]);
