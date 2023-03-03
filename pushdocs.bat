@@ -1,5 +1,5 @@
 
-cmd /k  "git add .  && git commit -m 'deploy' && git push -f https://github.com/devrecord/devrecord.github.io.git master"
+cmd /k  "git add .  && git commit -m 'deploy' && git push -f https://github.com/hbdoc/hbdoc.github.io.git master"
 
 
 
