@@ -4,10 +4,18 @@
         <title>Hbdoc Blog</title>
         <link>https://hbdoc.github.io/blog</link>
         <description>Hbdoc Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Mar 2023 13:56:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Mysql连接次数过多]]></title>
+            <link>https://hbdoc.github.io/blog/Mysql连接次数过多</link>
+            <guid>https://hbdoc.github.io/blog/Mysql连接次数过多</guid>
+            <pubDate>Tue, 07 Mar 2023 13:56:04 GMT</pubDate>
+            <description><![CDATA[一、发现问题]]></description>
+            <content:encoded><![CDATA[<h4 class="anchor anchorWithStickyNavbar_LWe7" id="一发现问题">一、发现问题<a href="#一发现问题" class="hash-link" aria-label="Direct link to 一、发现问题" title="Direct link to 一、发现问题">​</a></h4><p><img loading="lazy" src="C:%5CUsers%5Clotus%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1678262431171.png" alt="1678262431171" class="img_ev3q"></p><p>此时已经不能打开Mysql客户端连接数据库了。</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="二永久修改">二、永久修改<a href="#二永久修改" class="hash-link" aria-label="Direct link to 二、永久修改" title="Direct link to 二、永久修改">​</a></h4><p>找到Linux 服务器中Mysql 中 my.cnf文件，打开并在<!-- -->[mysqld]<!-- -->下面添加一条数据</p><p><code>max_connections=1000</code> </p><p>设置完成后重启mysql即可。</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="三临时修改">三、临时修改<a href="#三临时修改" class="hash-link" aria-label="Direct link to 三、临时修改" title="Direct link to 三、临时修改">​</a></h4><ol><li>可以使用<code>show variables like '%max_connections%';</code>查看当前数据库的连接数据</li><li>查看连接情况<code>show processlist;</code></li><li>设置<code>set GLOBAL max_connections = 1000;</code></li></ol>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://hbdoc.github.io/blog/welcome</link>
