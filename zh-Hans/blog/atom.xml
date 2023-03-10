@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://hbdoc.github.io/zh-Hans/blog</id>
+    <title>Hbdoc Blog</title>
+    <updated>2023-03-07T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://hbdoc.github.io/zh-Hans/blog"/>
+    <subtitle>Hbdoc Blog</subtitle>
+    <icon>https://hbdoc.github.io/zh-Hans/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Mysql连接次数过多]]></title>
+        <id>https://hbdoc.github.io/zh-Hans/blog/Mysql连接次数过多</id>
+        <link href="https://hbdoc.github.io/zh-Hans/blog/Mysql连接次数过多"/>
+        <updated>2023-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[一、发现问题]]></summary>
+        <content type="html"><![CDATA[<h4 class="anchor anchorWithStickyNavbar_LWe7" id="一发现问题">一、发现问题<a href="#一发现问题" class="hash-link" aria-label="一、发现问题的直接链接" title="一、发现问题的直接链接">​</a></h4><p><img loading="lazy" alt="Docusaurus Plushie" src="/zh-Hans/assets/images/8dcff919d488e530f60099102a365f3-72afd73d785b0e8a8c9c5d03fe49cd88.png" width="862" height="83" class="img_ev3q"></p><p>此时已经不能打开Mysql客户端连接数据库了。</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="二永久修改">二、永久修改<a href="#二永久修改" class="hash-link" aria-label="二、永久修改的直接链接" title="二、永久修改的直接链接">​</a></h4><p>找到Linux 服务器中Mysql 中 my.cnf文件，打开并在<!-- -->[mysqld]<!-- -->下面添加一条数据</p><p><code>max_connections=1000</code> </p><p>设置完成后重启mysql即可。</p><h4 class="anchor anchorWithStickyNavbar_LWe7" id="三临时修改">三、临时修改<a href="#三临时修改" class="hash-link" aria-label="三、临时修改的直接链接" title="三、临时修改的直接链接">​</a></h4><ol><li>可以使用<code>show variables like '%max_connections%';</code>查看当前数据库的连接数据</li><li>查看连接情况<code>show processlist;</code></li><li>设置<code>set GLOBAL max_connections = 1000;</code></li></ol>]]></content>
+        <author>
+            <name>Hbdoc</name>
+            <uri>https:/hbdoc.github.io</uri>
+        </author>
+        <category label="mysql" term="mysql"/>
+        <category label="sql" term="sql"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
+</feed>
