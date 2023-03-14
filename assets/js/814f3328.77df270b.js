@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Mysql\u8fde\u63a5\u6b21\u6570\u8fc7\u591a","permalink":"/blog/Mysql\u8fde\u63a5\u6b21\u6570\u8fc7\u591a"}]}')}}]);
