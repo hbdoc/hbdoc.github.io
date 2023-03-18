@@ -22,4 +22,12 @@
         <category label="sql" term="sql"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
+    <entry>
+        <title type="html"><![CDATA[congratulations]]></title>
+        <id>https://hbdoc.github.io/blog/2023/03/06/congratulations</id>
+        <link href="https://hbdoc.github.io/blog/2023/03/06/congratulations"/>
+        <updated>2023-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[--]]></summary>
+        <content type="html"><![CDATA[<p>--</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="sidebar_position-6">sidebar_position: 6<a href="#sidebar_position-6" class="hash-link" aria-label="Direct link to sidebar_position: 6" title="Direct link to sidebar_position: 6">​</a></h2><h1>前言</h1><p>您刚学习了<strong>Docusaurus</strong> 的基础知识并对<strong>初始模板</strong>进行了一些更改。</p><p>Docusaurus有<strong>更多可供选择</strong>！</p><p>本教程有任何不清楚的地方请记录到 Github官方地址<a href="https://github.com/facebook/docusaurus/discussions/4610" target="_blank" rel="noopener noreferrer">Please report it!</a></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="接下来是什么">接下来是什么?<a href="#接下来是什么" class="hash-link" aria-label="Direct link to 接下来是什么?" title="Direct link to 接下来是什么?">​</a></h2><ul><li>阅读<a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">官方文档</a></li><li>使用<code>docusaurus.config.js</code><a href="https://docusaurus.io/docs/api/docusaurus-config" target="_blank" rel="noopener noreferrer">修改站点配置</a></li><li>使用<code>themeConfig</code><a href="https://docusaurus.io/docs/api/themes/configuration" target="_blank" rel="noopener noreferrer">添加导航栏和页脚项</a></li><li>添加自定义<a href="https://docusaurus.io/docs/styling-layout" target="_blank" rel="noopener noreferrer">设计和布局</a></li><li>添加<a href="https://docusaurus.io/docs/search" target="_blank" rel="noopener noreferrer">搜索栏</a></li><li>在<code>Docusaurus showcase</code>中<a href="https://docusaurus.io/showcase" target="_blank" rel="noopener noreferrer">找到灵感</a></li><li>参与<a href="https://docusaurus.io/community/support" target="_blank" rel="noopener noreferrer">Docusaurus社区</a></li></ul>]]></content>
+    </entry>
 </feed>
