@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9921],{733:s=>{s.exports=JSON.parse('{"label":"sql","permalink":"/zh-Hans/blog/tags/sql","allTagsPath":"/zh-Hans/blog/tags","count":2}')}}]);
