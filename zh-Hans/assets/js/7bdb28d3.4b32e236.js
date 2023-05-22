@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9668],{401:s=>{s.exports=JSON.parse('{"label":"JVM","permalink":"/zh-Hans/blog/tags/jvm","allTagsPath":"/zh-Hans/blog/tags","count":1}')}}]);
